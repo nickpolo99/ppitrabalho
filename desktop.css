@@ -1,0 +1,31 @@
+/* css para telas grandes */
+.container{
+    margin: auto;
+    max-width: 1200px;
+}
+
+.row{
+    flex-direction: row;
+}
+
+aside{
+    flex-basis: 30%;
+}
+
+/*destruir o nav responsivo */
+
+
+nav > a{
+    display: none;
+}
+
+nav div{
+    transform: translateX(0);
+    flex-direction: row;
+    position: static;
+
+}
+
+nav div a{
+    border-top: none;
+}
